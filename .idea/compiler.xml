@@ -9,6 +9,7 @@
         <module name="eureka-provider" />
         <module name="eureka-server" />
         <module name="ribbon-consumer" />
+        <module name="zuul-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="eurekaprovider" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
+      <module name="zuul-client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
